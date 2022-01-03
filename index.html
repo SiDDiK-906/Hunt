@@ -1,0 +1,881 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project Hunt</title>
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet"> 
+	
+	<link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16"> 
+	<link rel="stylesheet" href="css/slick.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/venobox.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+<!--=====================================
+				Nav Bar Start
+======================================-->
+<nav class="navbar navbar-expand-lg nav_fix">
+	<div class="container">
+		<div class="logo">
+			<a class="navbar-brand" href="#">
+				<img src="images/logo.png" alt="logo">
+			</a>
+		</div>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<i class="fa fa-bars" aria-hidden="true"></i>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">about us</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">Our portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">testimonial</a>
+				</li>
+				<li class="nav-item drop">
+					<a class="nav-link" href="#">Pricing plan</a>
+						<div class="nested_drop">
+							<div class="flex main">
+								<div class="shape shape1"></div>
+								<ol>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+								</ol>
+								<ol>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+								</ol>
+								<ol>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+								</ol>
+								<ol class="item4">
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+									<li><a class="nav-link" href="#">testimonial</a></li>
+								</ol>
+							</div>
+						</div>
+				</li>
+				<li class="nav-item mobile_price">
+					<a class="nav-link mobile_click" href="#">Pricing plan</a>
+					<div class="mobile_drop">
+						<div class="accordion" id="accordionExample">
+							<div class="card">
+							  <div class="card-header" id="headingOne">
+								<h2 class="mb-0">
+								  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+									Item 1
+								  </button>
+								</h2>
+							  </div>
+							</div>
+							<div class="card">
+							  <div class="card-header" id="headingTwo">
+								<h2 class="mb-0">
+								  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									Item 2
+								  </button>
+								</h2>
+							  </div>
+							</div>
+							<div class="card">
+							  <div class="card-header" id="headingThree">
+								<h2 class="mb-0">
+								  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+									Item 3
+								  </button>
+								</h2>
+							  </div>
+							</div>
+							<div class="card">
+								<div class="card-header" id="headingTwo">
+								  <h2 class="mb-0">
+									<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									  Item 4
+									</button>
+								  </h2>
+								</div>
+							  </div>
+							  <div class="card">
+								<div class="card-header" id="headingTwo">
+								  <h2 class="mb-0">
+									<button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+									  Item 5
+									</button>
+								  </h2>
+								</div>
+							  </div>
+						  </div>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link pr-0" href="#">Contact us</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+<!--=====================================
+				Nav Bar End
+======================================-->
+<!--=====================================
+			Banner Section Start
+======================================-->
+	<section class="banner">
+		<div class="plugin">
+			<div class="img1 img">
+				<div class="overlay">
+					<div class="container">
+						<div class="item">
+							<h3>We Are Creative</h3>
+							<h1>designer</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+							<div class="buttons flex">
+								<div class="button1">
+									<a href="#" class="view">View More</a>
+								</div>
+								<div class="button2">
+									<a href="#" class="hire">Hire Us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="img2 img">
+				<div class="overlay">
+					<div class="container">
+						<div class="item">
+							<h3>We Are Creative</h3>
+							<h1>designer</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+							<div class="buttons flex">
+								<div class="button1">
+									<a href="#" class="view">View More</a>
+								</div>
+								<div class="button2">
+									<a href="#" class="hire">Hire Us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="img3 img">
+				<div class="overlay">
+					<div class="container">
+						<div class="item">
+							<h3>We Are Creative</h3>
+							<h1>designer</h1>
+							<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text.</p>
+							<div class="buttons flex">
+								<div class="button1">
+									<a href="#" class="view">View More</a>
+								</div>
+								<div class="button2">
+									<a href="#" class="hire">Hire Us</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--=====================================
+			Banner Section End
+======================================-->
+<!--=====================================
+				About Section Start
+======================================-->
+<section id="about" >
+	<div class="title">
+		<h1>About Us</h1>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the end of 1500s.</p>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 offset-lg-4 p-0">
+				<div class="item item1">
+					<h2>Who We Are?</h2>
+					<p>Lorem Ipsum is simply dummy text oftheg and typesetting industry. Loremumhaseen the industry's standardmy text ever since the end of 1500s.</p>
+					<div class="shape shape1"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-4 p-0">
+				<div class="item item_img item_img1">
+					<h2>Who We Are?</h2>
+					<p>Lorem Ipsum is simply dummy text oftheg and  namtypesetting industry. Loremumhaseen the  my naindustry's standardmy text ever since the end of 1500s.</p>
+					<div class="shape shape2"></div>
+				</div>
+			</div>
+			<div class="col-lg-4 center">
+				<div class="item_img item_img2">
+					<img src="images/about.png" alt="about">
+					<div class="overlay"></div>
+				</div>
+			</div>
+			<div class="col-lg-4 p-0">
+				<div class="item item_img item_img3">
+					<h2>Who We Are?</h2>
+					<p>Lorem Ipsum is simply dummy text oftheg and  namtypesetting industry. Loremumhaseen the  my naindustry's standardmy text ever since the end of 1500s.</p>
+					<div class="shape shape3"></div>
+				</div>
+			</div>
+		</div>
+		<div class="row bottom_row">
+			<div class="col-lg-4 offset-lg-4 p-0">
+				<div class="item item4">
+					<h2>Who We Are?</h2>
+					<p>Lorem Ipsum is simply dummy text oftheg and typesetting industry. Loremumhaseen the industry's standardmy text ever since the end of 1500s.</p>
+					<div class="shape shape4"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--=====================================
+				About Section End
+======================================-->
+<!--=====================================
+				Portfolio Section Start
+======================================-->
+<section id="portfolio">
+	<div class="main">
+		<div class="title">
+			<h1>Our Portfolio</h1>
+			<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the end of 1500s.</p>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-6 item">
+					<div class="up common">
+						<img src="images/portfolio1.png" alt="portfolio1">
+						<div class="overlay">
+							<a class="venobox" data-gall="gallery01" href="images/banner1.jpg">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+					<div class="down common">
+						<img src="images/portfolio2.png" alt="portfolio">
+						<div class="overlay">
+							<a class="venobox" data-gall="gallery01" href="images/banner1.jpg">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 item">
+					<div class="up common">
+						<img src="images/portfolio1.png" alt="portfolio1">
+						<div class="overlay">
+							<a class="venobox" data-gall="gallery01" href="images/banner1.jpg">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+					<div class="down common">
+						<img src="images/portfolio2.png" alt="portfolio">
+						<div class="overlay">
+							<a class="venobox" data-gall="gallery01" href="images/banner1.jpg">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 item">
+					<div class="up common">
+						<img src="images/portfolio1.png" alt="portfolio1">
+						<div class="overlay">
+							<a class="venobox" data-gall="gallery01" href="images/banner1.jpg">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+					<div class="down common">
+						<img src="images/portfolio2.png" alt="portfolio">
+						<div class="overlay">
+							<a class="venobox" data-gall="gallery01" href="images/banner1.jpg">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-6 item">
+					<div class="up common">
+						<img src="images/portfolio1.png" alt="portfolio1">
+						<div class="overlay">
+							<a class="venobox" data-gall="gallery01" href="images/banner1.jpg">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+					<div class="down common">
+						<img src="images/portfolio2.png" alt="portfolio">
+						<div class="overlay">
+							<a class="venobox" data-gall="gallery01" href="images/banner1.jpg">
+								<i class="fa fa-search-plus" aria-hidden="true"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--=====================================
+				Portfolio Section End
+======================================-->
+<!--=====================================
+				Services Section Start
+======================================-->
+<section id="service">
+	<div class="title">
+		<h1>Our Services</h1>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the end of 1500s.</p>
+	</div>
+	<div class="line">
+		<div class="img">
+			<img src="images/service_line.png" alt="service_line">
+		</div>
+	</div>
+	<div class="container">
+		<div class="main">
+			<div class="service_slider">
+				<div class="item flex">
+					<div class="left">
+						<h1>web design</h1>
+					</div>
+					<div class="middle">
+						<div class="img">
+							<img src="images/service1.png" alt="service1">
+						</div>
+					</div>
+					<div class="right">
+						<div class="text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typtting industry. Lorem Ipsum has been the industry's standard y text ever since the 1500s, when an unknown printer took a galleye and scrambled it to make a type specimen book. It has surve nothing is impossible centuries.</p>
+						</div>
+					</div>
+				</div>
+				<div class="item flex">
+					<div class="left">
+						<h1>web design</h1>
+					</div>
+					<div class="middle">
+						<div class="img">
+							<img src="images/service1.png" alt="service1">
+						</div>
+					</div>
+					<div class="right">
+						<div class="text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typtting industry. Lorem Ipsum has been the industry's standard y text ever since the 1500s, when an unknown printer took a galleye and scrambled it to make a type specimen book. It has surve nothing is impossible centuries.</p>
+						</div>
+					</div>
+				</div>
+				<div class="item flex">
+					<div class="left">
+						<h1>web design</h1>
+					</div>
+					<div class="middle">
+						<div class="img">
+							<img src="images/service1.png" alt="service1">
+						</div>
+					</div>
+					<div class="right">
+						<div class="text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typtting industry. Lorem Ipsum has been the industry's standard y text ever since the 1500s, when an unknown printer took a galleye and scrambled it to make a type specimen book. It has surve nothing is impossible centuries.</p>
+						</div>
+					</div>
+				</div>
+				<div class="item flex">
+					<div class="left">
+						<h1>web design</h1>
+					</div>
+					<div class="middle">
+						<div class="img">
+							<img src="images/service1.png" alt="service1">
+						</div>
+					</div>
+					<div class="right">
+						<div class="text">
+							<p>Lorem Ipsum is simply dummy text of the printing and typtting industry. Lorem Ipsum has been the industry's standard y text ever since the 1500s, when an unknown printer took a galleye and scrambled it to make a type specimen book. It has surve nothing is impossible centuries.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--=====================================
+				Services Section End
+======================================-->
+<!--=====================================
+			Testimonial Section Start
+======================================-->
+<section id="testimonial">
+	<div class="overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 main">
+					<img class="line" src="images/testi_line.png" alt="service_line">
+					<div class="left">
+						<div class="image_slider">
+							<div class="item">
+								<div class="img">
+									<img src="images/testimonial1.png" alt="testimonial1">
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="images/testimonial2.png" alt="testimonial1">
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="images/testimonial1.png" alt="testimonial1">
+								</div>
+							</div>
+							<div class="item">
+								<div class="img">
+									<img src="images/testimonial2.png" alt="testimonial1">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-10 main2">
+					<div class="shape"></div>
+					<div class="right">
+						<div class="center">
+							<div class="quote flex">
+								<i class="fa fa-quote-left" aria-hidden="true"></i>
+								<i class="fa fa-quote-right" aria-hidden="true"></i>
+							</div>
+							<div class="txt_slider">
+								<div class="item">
+									<h4>Farhan Shahriar</h4>
+									<div class="star flex">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half-o" aria-hidden="true"></i>
+									</div>
+									<span>Chairman/CEO</span>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</p>
+									<h6>Mahadi Tahsan</h6>
+								</div>
+								<div class="item">
+									<h4>Jhon Wick</h4>
+									<div class="star flex">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half-o" aria-hidden="true"></i>
+									</div>
+									<span>Co-Founder</span>
+									<p> industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed Lorem Ipsum is simply dummy text of the printing and typesetting. orem Ipsum is simply dummy text of the printing.</p>
+									<h6>Mahadi Tahsan</h6>
+								</div>
+								<div class="item">
+									<h4>Farhan Shahriar</h4>
+									<div class="star flex">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half-o" aria-hidden="true"></i>
+									</div>
+									<span>Chairman/CEO</span>
+									<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed. orem Ipsum is simply dummy text of the printing.</p>
+									<h6>Mahadi Tahsan</h6>
+								</div>
+								<div class="item">
+									<h4>Jhon Wick</h4>
+									<div class="star flex">
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star" aria-hidden="true"></i>
+										<i class="fa fa-star-half-o" aria-hidden="true"></i>
+									</div>
+									<span>Co-Founder</span>
+									<p> industry. Lorem Ipsum has been the industry's ardy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type ook. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially changed Lorem Ipsum is simply dummy text of the printing and typesetting. orem Ipsum is simply dummy text of the printing.</p>
+									<h6>Mahadi Tahsan</h6>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--=====================================
+			Testimonial Section End
+======================================-->
+<!--=====================================
+				Port Section Start
+======================================-->
+<section id="price">
+	<div class="title">
+		<h1>Pricing Plan</h1>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the end of 1500s.</p>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="item">
+					<h1>silver</h1>
+					<div class="border">
+						<div class="circle">
+							<h2>$<span>29</span></h2>
+							<p>per month</p>
+						</div>
+					</div>
+					<div class="list">
+						<ul>
+							<li>Android Application</li>
+							<li>ios Application</li>
+							<li>UX/UI Designs</li>
+							<li>Wordpress Develope</li>
+							<li>x</li>
+						</ul>
+					</div>
+					<h3>join now</h3>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="item">
+					<h1>silver</h1>
+					<div class="border">
+						<div class="circle">
+							<h2>$<span>29</span></h2>
+							<p>per month</p>
+						</div>
+					</div>
+					<div class="list">
+						<ul>
+							<li>Android Application</li>
+							<li>ios Application</li>
+							<li>UX/UI Designs</li>
+							<li>Wordpress Develope</li>
+							<li>x</li>
+						</ul>
+					</div>
+					<h3>join now</h3>
+				</div>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4">
+				<div class="item">
+					<h1>silver</h1>
+					<div class="border">
+						<div class="circle">
+							<h2>$<span>29</span></h2>
+							<p>per month</p>
+						</div>
+					</div>
+					<div class="list">
+						<ul>
+							<li>Android Application</li>
+							<li>ios Application</li>
+							<li>UX/UI Designs</li>
+							<li>Wordpress Develope</li>
+							<li>x</li>
+						</ul>
+					</div>
+					<h3>join now</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--=====================================
+				Port Section End
+======================================-->
+<!--=====================================
+			Count Section Start
+======================================-->
+<section id="count">
+	<div class="overlay">
+		<div class="container">
+			<div class="row">
+				<div class="col col-sm-4 col-md">
+					<div class="item">
+						<span class="counter">230</span>
+						<h4>total client</h4>
+					</div>
+				</div>
+				<div class="col col-sm-4 col-md">
+					<div class="item">
+						<span class="counter">230</span>
+						<h4>total client</h4>
+					</div>
+				</div>
+				<div class="col col-sm-4 col-md">
+					<div class="item">
+						<span class="counter">230</span>
+						<h4>total client</h4>
+					</div>
+				</div>
+				<div class="col col-sm-6 col-md">
+					<div class="item">
+						<span class="counter">230</span>
+						<h4>total client</h4>
+					</div>
+				</div>
+				<div class="col col-sm-6 col-md">
+					<div class="item">
+						<span class="counter">230</span>
+						<h4>total client</h4>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--=====================================
+			Count Section End
+======================================-->
+<!--=====================================
+			Team Section Start
+======================================-->
+<section id="team">
+	<div class="title">
+		<h1>Our Team</h1>
+		<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Loremsum has been the industry's standard dummy text ever since the end of 1500s.</p>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-sm-6 col-md-3">
+				<div class="item">
+					<div class="img">
+						<img src="images/team2.png" alt="team2">
+						<div class="overlay"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+					</div>
+					<div class="main">
+						<div class="text">
+							<h4>Nadia Rahman</h4>
+							<p>Web Designer</p>
+						</div>
+						<div class="icon flex">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<i class="fa fa-behance" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 col-md-3">
+				<div class="item item2">
+					<div class="img">
+						<img src="images/team2.png" alt="team2">
+						<div class="overlay"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+					</div>
+					<div class="main">
+						<div class="text">
+							<h4>Jhon Smith</h4>
+							<p>Web Developer</p>
+						</div>
+						<div class="icon flex">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<i class="fa fa-behance" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 col-md-3">
+				<div class="item">
+					<div class="img">
+						<img src="images/team2.png" alt="team2">
+						<div class="overlay"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+					</div>
+					<div class="main">
+						<div class="text">
+							<h4>Nadia Rahman</h4>
+							<p>Web Designer</p>
+						</div>
+						<div class="icon flex">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<i class="fa fa-behance" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-sm-6 col-md-3">
+				<div class="item item4">
+					<div class="img">
+						<img src="images/team2.png" alt="team2">
+						<div class="overlay"><i class="fa fa-search-plus" aria-hidden="true"></i></div>
+					</div>
+					<div class="main">
+						<div class="text">
+							<h4>Jhon Smith</h4>
+							<p>Web Developer</p>
+						</div>
+						<div class="icon flex">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<i class="fa fa-behance" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--=====================================
+			Team Section End
+======================================-->
+<!--=====================================
+			Brand Section Start
+======================================-->
+<section class="brand">
+	<div class="container">
+		<div class="main">
+			<div class="brand_plugin">
+				<div class="common one">
+					<img src="images/brand1.png" alt="brand1">
+				</div>
+				<div class="common two">
+					<img src="images/brand2.png" alt="brand1">
+				</div>
+				<div class="common three">
+					<img src="images/brand3.png" alt="brand1">
+				</div>
+				<div class="common four">
+					<img src="images/brand4.png" alt="brand1">
+				</div>
+				<div class="common one">
+					<img src="images/brand1.png" alt="brand1">
+				</div>
+				<div class="common five">
+					<img src="images/brand5.png" alt="brand1">
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<!--=====================================
+			Brand Section End
+======================================-->
+<!--=====================================
+			Footer Section Start
+======================================-->
+	<section class="footer">
+		<div class="logo">
+			<img src="images/logo.png" alt="logo">
+		</div>
+		<div class="main">
+			<div class="container">
+				<div class="address">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6 col-md-3 item item1">
+							<i class="fa fa-map-marker" aria-hidden="true"></i>
+							<p>1234, Parkstreet Avenue Newyork City, America.</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-md-3 item item2">
+							<i class="fa fa-phone" aria-hidden="true"></i>
+							<p>+123 45 67 89 89 60</p>
+							<p>+123 45 67 89 89 60</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-md-3 item">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+							<p>portfolio@hunt.com</p>
+							<p>info@hunt.com</p>
+						</div>
+						<div class="col-lg-3 col-sm-6 col-md-3 item item4">
+							<i class="fa fa-globe" aria-hidden="true"></i>
+							<p>www.hunt-personal-port.com</p>
+							<p>www.portfolio-hunt.com</p>
+						</div>
+					</div>
+				</div>
+				<div class="follow">
+					<h2>follow us</h2>
+					<div class="icon flex">
+						<div class="one icon">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</div>
+						<div class="two icon">
+							<i class="fa fa-google-plus" aria-hidden="true"></i>
+						</div>
+						<div class="three icon">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+						</div>
+						<div class="four icon">
+							<i class="fa fa-behance" aria-hidden="true"></i>
+						</div>
+						<div class="five icon">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+<!--=====================================
+			Footer Section End
+======================================-->
+<!--=====================================
+			Copyright Section Start
+======================================-->
+	<section class="copyright">
+		<div class="text">
+			<p>Copyright © 2017.All rights reserved by <span>HUNT</span></p>
+		</div>
+	</section>
+<!--=====================================
+			Copyright Section End
+======================================-->
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+	<script src="js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1127 @@
+@media (max-width:575px){
+/* ======== Common CSS =========== */
+	.title {
+		margin-bottom: 50px;
+	}
+	.title p{
+		width: auto;
+		padding: 0 14px;
+	}
+/*============== Nav Section Start =================*/
+	nav .logo{
+		margin-left: 20px;
+	}
+	nav .navbar-toggler{
+		margin-right: 15px;
+		margin-top: -5px;
+	}
+	nav .navbar-toggler i {
+		color: #000000;
+		background: #fec600;
+		padding: 5px 10px;
+		border-radius: 4px;
+	}
+	nav .collapsed i{
+		background: #ffffff;
+	}
+	nav ul{
+		background: #353535;
+		text-align: center;
+	}
+	nav ul > li {
+		margin-left: 0px;
+		padding: 3px 0;
+	}
+	nav ul li > a{
+		color: #ffffff;
+		transition: 0.4s;
+	}
+	nav ul li > a::after {
+		left: 35%;
+		bottom: -6px !important;
+	}
+	nav ul li > a:hover::after {
+		width: 30%;
+	}
+	nav .drop{
+		display: none;
+	}
+	nav .mobile_price{
+		display: block;
+	}
+	nav .mobile_price .mobile_drop{
+		display: none;
+	}
+	nav .mobile_price .mobile_drop .card button{
+		text-align: center !important;
+	}
+	nav .mobile_price .mobile_drop .card{
+		background: #292828;
+		border: 0;
+	}
+	nav .mobile_price .mobile_drop .card button{
+		font-size: 16px;
+		font-weight: 500;
+		font-family: 'Raleway', sans-serif;
+		color: #ffffff;
+		transition: 0.4s;
+		text-transform: capitalize;
+		position: relative;
+		list-style: none;
+		text-decoration: none;
+	}
+	nav .mobile_price .mobile_drop .card button:hover{
+		color: #fec600;
+	}
+	nav .mobile_price .mobile_drop .card button::after {
+		content: "";
+		width: 0%;
+		height: 3px;
+		position: absolute;
+		left: 35%;
+		bottom: -6px;
+		background: #fec600;
+		opacity: 0;
+		transition: 0.4s;
+	}
+	nav .mobile_price .mobile_drop .card button:hover::after{
+		opacity: 1;
+		width: 30%;
+	}
+/*============== Nav Section End =================*/
+/*============== Banner Section Start =================*/
+	.banner {
+		clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+	}
+	.banner .plugin .overlay {
+		padding-top: 150px;
+		padding-bottom: 93px;
+	}
+	.banner .plugin .overlay h3{
+		font-size: 26px;
+	}
+	.banner .plugin .overlay h1{
+		font-size: 46px;
+		margin-bottom: 20px;
+	}
+	.banner .plugin .overlay p {
+		width: auto;
+		padding: 0px 7px;
+		text-align: center;
+		margin: 0 !important;
+	}
+	.banner .plugin .overlay .item {
+		text-align: center;
+	}
+	.banner .plugin .overlay .buttons {
+		margin-top: 90px;
+	}
+	.banner .slick-arrow {
+		top: 63%;
+	}
+/*============== Banner Section End =================*/
+/*============== About Us Section Start =================*/
+#about .center{
+	display: flex;
+	justify-content: center;
+}
+#about .item_img2 {
+	height: 259px;
+	width: 259px;
+	margin-bottom: 25px;
+}
+#about .item_img img {
+	height: 220px;
+	width: 220px;
+}
+#about .item_img .overlay {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#about .item {
+	text-align: center;
+	width: auto;
+	padding: 30px 0px;
+	margin: 0 37px;
+	margin-bottom: 25px;
+}
+#about .item_img1 {
+	margin-top: 0px;
+}
+#about .item_img3 {
+	margin-top: 0px;
+}
+#about .item p{
+	width: auto;
+	text-align: center;
+	margin-left: 0%;
+}
+#about .item .shape{
+	display: none;
+}
+#about .item::after {
+	display: none;
+}
+/*============== About Us Section End =================*/
+/*============== Portfolio Section Start =================*/
+#portfolio {
+	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+#portfolio .main {
+	padding-bottom: 10px;
+}
+#portfolio .title {
+	padding-top: 50px;
+}
+#portfolio .item {
+	margin-bottom: 30px !important;
+	margin: 0 20px;
+}
+/*============== Portfolio Section End =================*/
+/*============== Service Section Start =================*/
+#service .title {
+	margin-top: 50px;
+}
+#service .line {
+	display: none;
+}
+#service .main .item {
+	flex-direction: column !important;
+	padding-top: 0px;
+}
+#service .main .item .left {
+	width: auto;
+	justify-content: center !important;
+}
+#service .main .item .middle {
+	width: auto;
+	margin: 20px 0;
+}
+#service .main .item .right {
+	width: auto;
+	margin: 0 20px;
+}
+#service .main .item .right::after {
+	top: -4%;
+	left: 50% !important;
+	transform: translateX(-50%) rotate(-45deg);
+}
+#service .up_arrow {
+	top: -50px;
+}
+#service .bottom_arrow {
+	bottom: -50px;
+}
+#service .main .item .right .text {
+	padding: 27px 20px;
+	text-align: center;
+}
+/*============== Service Section End =================*/
+/*============== Testimonial Section Start =================*/
+#testimonial {
+	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+#testimonial .main .line {
+	display: none;
+}
+#testimonial .image_slider .slick-arrow {
+	top: 38%;
+	z-index: 99;
+}
+#testimonial .image_slider .up_arrow {
+	left: 10%;
+}
+#testimonial .image_slider .bottom_arrow {
+	left: 90%;
+}
+#testimonial .left .item {
+	transform: scale(1.2);
+}
+#testimonial .main2 {
+	margin-top: 20px;
+}
+#testimonial .main2 .shape {
+	display: none;
+}
+#testimonial .right .center {
+	padding: 20px 10px;
+	margin: 0 auto;
+	/* width: auto; */
+}
+#testimonial .overlay {
+	padding: 100px 0 100px 0;
+}
+#testimonial .right .center .quote i {
+	font-size: 100px;
+}
+/*============== Testimonial Section End =================*/
+/*============== Pricing Section Start =================*/
+#price .row .item .list {
+	background: #f1f1f1;
+	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+#price .row .item {
+	margin-bottom: 30px !important;
+	margin: 0 20px
+}
+#price .row .item h3 {
+	padding-bottom: 20px;
+}
+#price .row .item h1 {
+	padding: 20px 0 70px 0;
+}
+/*============== Pricing Section End =================*/
+/*============== Counter Section Start =================*/
+#count .overlay {
+	padding: 40px 0 20px 0;
+}
+#count .row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#count .col {
+	min-width: auto;
+}
+#count .row .item {
+	margin-bottom: 20px;
+}
+#count .row .item span {
+	font-size: 20px;
+}
+#count .row .item h4 {
+	font-size: 18px;
+}
+/*============== Counter Section End =================*/
+/*============== Team Section Start =================*/
+#team .row .item .img {
+	clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+#team .row .item {
+	margin: 0 20px;
+	margin-bottom: 20px !important;
+}
+/*============== Team Section End =================*/
+/*============== Brand Section Start =================*/
+.brand .common {
+	margin: 20px 15px;
+}
+/*============== Brand Section End =================*/
+/*============== Footer Section Start =================*/
+.footer .address {
+	margin: 0px 0 30px 0;
+}
+.footer .address .item {
+	margin-bottom: 30px;
+}
+.footer .address .item{
+	border-right: none;
+}
+/*============== Footer Section End =================*/
+}
+@media (min-width:576px) and (max-width:767px){
+/* ======== Common CSS =========== */
+	.title {
+		margin-bottom: 50px;
+	}
+	.title p{
+		width: auto;
+		padding: 0 14px;
+	}
+/*============== Nav Section Start =================*/
+	nav .logo{
+		margin-left: 20px;
+	}
+	nav .navbar-toggler{
+		margin-right: 15px;
+		margin-top: -5px;
+	}
+	nav .navbar-toggler i {
+		color: #000000;
+		background: #fec600;
+		padding: 5px 10px;
+		border-radius: 4px;
+	}
+	nav .collapsed i{
+		background: #ffffff;
+	}
+	nav ul{
+		background: #353535;
+		text-align: center;
+	}
+	nav ul > li {
+		margin-left: 0px;
+		padding: 3px 0;
+	}
+	nav ul li > a{
+		color: #ffffff;
+		transition: 0.4s;
+	}
+	nav ul li > a::after {
+		left: 35%;
+		bottom: -6px !important;
+	}
+	nav ul li > a:hover::after {
+		width: 30%;
+	}
+	nav .drop{
+		display: none;
+	}
+	nav .mobile_price{
+		display: block;
+	}
+	nav .mobile_price .mobile_drop{
+		display: none;
+	}
+	nav .mobile_price .mobile_drop .card button{
+		text-align: center !important;
+	}
+	nav .mobile_price .mobile_drop .card{
+		background: #292828;
+		border: 0;
+	}
+	nav .mobile_price .mobile_drop .card button{
+		font-size: 16px;
+		font-weight: 500;
+		font-family: 'Raleway', sans-serif;
+		color: #ffffff;
+		transition: 0.4s;
+		text-transform: capitalize;
+		position: relative;
+		list-style: none;
+		text-decoration: none;
+	}
+	nav .mobile_price .mobile_drop .card button:hover{
+		color: #fec600;
+	}
+	nav .mobile_price .mobile_drop .card button::after {
+		content: "";
+		width: 0%;
+		height: 3px;
+		position: absolute;
+		left: 35%;
+		bottom: -6px;
+		background: #fec600;
+		opacity: 0;
+		transition: 0.4s;
+	}
+	nav .mobile_price .mobile_drop .card button:hover::after{
+		opacity: 1;
+		width: 30%;
+	}
+/*============== Nav Section End =================*/
+/*============== Banner Section Start =================*/
+	.banner {
+		clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+	}
+	.banner .plugin .overlay {
+		padding-top: 150px;
+		padding-bottom: 93px;
+	}
+	.banner .plugin .overlay h3{
+		font-size: 26px;
+	}
+	.banner .plugin .overlay h1{
+		font-size: 46px;
+		margin-bottom: 20px;
+	}
+	.banner .plugin .overlay p {
+		width: auto;
+		padding: 0px 7px;
+		text-align: center;
+		margin: 0 !important;
+	}
+	.banner .plugin .overlay .item {
+		text-align: center;
+	}
+	.banner .plugin .overlay .buttons {
+		margin-top: 90px;
+	}
+	.banner .slick-arrow {
+		top: 63%;
+	}
+/*============== Banner Section End =================*/
+/*============== About Us Section Start =================*/
+#about .center{
+	display: flex;
+	justify-content: center;
+}
+#about .item_img2 {
+	height: 259px;
+	width: 259px;
+	margin-bottom: 25px;
+}
+#about .item_img img {
+	height: 220px;
+	width: 220px;
+}
+#about .item_img .overlay {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#about .item {
+	text-align: center;
+	width: auto;
+	padding: 30px 0px;
+	margin: 0 37px;
+	margin-bottom: 25px;
+}
+#about .item_img1 {
+	margin-top: 0px;
+}
+#about .item_img3 {
+	margin-top: 0px;
+}
+#about .item p{
+	width: auto;
+	text-align: center;
+	margin-left: 0%;
+}
+#about .item .shape{
+	display: none;
+}
+#about .item::after {
+	display: none;
+}
+/*============== About Us Section End =================*/
+/*============== Portfolio Section Start =================*/
+#portfolio {
+	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+#portfolio .main {
+	padding-bottom: 10px;
+}
+#portfolio .title {
+	padding-top: 50px;
+}
+#portfolio .item {
+	margin-bottom: 30px !important;
+}
+/*============== Portfolio Section End =================*/
+/*============== Service Section Start =================*/
+#service .title {
+	margin-top: 50px;
+}
+#service .line {
+	display: none;
+}
+#service .main .item {
+	flex-direction: column !important;
+	padding-top: 0px;
+}
+#service .main .item .left {
+	width: auto;
+	justify-content: center !important;
+}
+#service .main .item .middle {
+	width: auto;
+	margin: 20px 0;
+}
+#service .main .item .right {
+	width: auto;
+	margin: 0 20px;
+}
+#service .main .item .right::after {
+	top: -6%;
+	left: 50% !important;
+	transform: translateX(-50%) rotate(-45deg);
+}
+#service .up_arrow {
+	top: -50px;
+}
+#service .bottom_arrow {
+	bottom: -50px;
+}
+#service .main .item .right .text {
+	padding: 27px 20px;
+	text-align: center;
+}
+/*============== Service Section End =================*/
+/*============== Testimonial Section Start =================*/
+#testimonial {
+	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+#testimonial .main .line {
+	display: none;
+}
+#testimonial .image_slider .slick-arrow {
+	top: 38%;
+	z-index: 99;
+}
+#testimonial .image_slider .up_arrow {
+	left: 10%;
+}
+#testimonial .image_slider .bottom_arrow {
+	left: 90%;
+}
+#testimonial .left .item {
+	transform: scale(1.2);
+}
+#testimonial .main2 {
+	margin-top: 20px;
+}
+#testimonial .main2 .shape {
+	display: none;
+}
+#testimonial .right .center {
+	padding: 20px 10px;
+	margin: 0 auto;
+	/* width: auto; */
+}
+#testimonial .overlay {
+	padding: 100px 0 100px 0;
+}
+/*============== Testimonial Section End =================*/
+/*============== Pricing Section Start =================*/
+#price .row .item .list {
+	background: #f1f1f1;
+	clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+}
+#price .row .item {
+	margin-bottom: 30px !important;
+}
+#price .row .item h3 {
+	padding-bottom: 16px;
+}
+#price .row .item h1 {
+	padding: 20px 0 50px 0;
+}
+#price .row .item .border {
+	top: 50px;
+}
+#price .row .item .list ul {
+	padding: 50px 0 10px 0;
+}
+#price .row .item .list ul li {
+	line-height: 35px;
+}
+/*============== Pricing Section End =================*/
+/*============== Counter Section Start =================*/
+#count .overlay {
+	padding: 40px 0 20px 0;
+}
+#count .row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+#count .col {
+	min-width: auto;
+}
+#count .row .item {
+	margin-bottom: 20px;
+}
+#count .row .item span {
+	font-size: 20px;
+}
+#count .row .item h4 {
+	font-size: 18px;
+}
+/*============== Counter Section End =================*/
+/*============== Team Section Start =================*/
+#team .row .item .img {
+	clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+}
+#team .row .item {
+	margin: 0 20px;
+	margin-bottom: 20px !important;
+}
+#team .row .item:hover .text {
+	padding-bottom: 60px;
+}
+#team .row .item .text {
+	padding-bottom: 20px;
+}
+#team .row .item .img img {
+	width: auto;
+}
+/*============== Team Section End =================*/
+/*============== Brand Section Start =================*/
+.brand .common {
+	margin: 20px 15px;
+}
+/*============== Brand Section End =================*/
+/*============== Footer Section Start =================*/
+.footer .address {
+	margin: 0px 0 30px 0;
+}
+.footer .address .item {
+	margin-bottom: 30px;
+}
+
+.footer .address .item2{
+	border-right: none;
+}
+/*============== Footer Section End =================*/
+}
+@media (min-width:768px) and (max-width:991px){
+	/* ======== Common CSS =========== */
+		.title {
+			margin-bottom: 50px;
+		}
+		.title p{
+			width: auto;
+			padding: 0 14px;
+		}
+	/*============== Nav Section Start =================*/
+		nav .logo{
+			margin-left: 20px;
+		}
+		nav .navbar-toggler{
+			margin-right: 15px;
+			margin-top: -5px;
+		}
+		nav .navbar-toggler i {
+			color: #000000;
+			background: #fec600;
+			padding: 5px 10px;
+			border-radius: 4px;
+		}
+		nav .collapsed i{
+			background: #ffffff;
+		}
+		nav ul{
+			background: #353535;
+			text-align: center;
+		}
+		nav ul > li {
+			margin-left: 0px;
+			padding: 3px 0;
+		}
+		nav ul li > a{
+			color: #ffffff;
+			transition: 0.4s;
+		}
+		nav ul li > a::after {
+			left: 35%;
+			bottom: -6px !important;
+		}
+		nav ul li > a:hover::after {
+			width: 30%;
+		}
+		nav .drop{
+			display: none;
+		}
+		nav .mobile_price{
+			display: block;
+		}
+		nav .mobile_price .mobile_drop{
+			display: none;
+		}
+		nav .mobile_price .mobile_drop .card button{
+			text-align: center !important;
+		}
+		nav .mobile_price .mobile_drop .card{
+			background: #292828;
+			border: 0;
+		}
+		nav .mobile_price .mobile_drop .card button{
+			font-size: 16px;
+			font-weight: 500;
+			font-family: 'Raleway', sans-serif;
+			color: #ffffff;
+			transition: 0.4s;
+			text-transform: capitalize;
+			position: relative;
+			list-style: none;
+			text-decoration: none;
+		}
+		nav .mobile_price .mobile_drop .card button:hover{
+			color: #fec600;
+		}
+		nav .mobile_price .mobile_drop .card button::after {
+			content: "";
+			width: 0%;
+			height: 3px;
+			position: absolute;
+			left: 35%;
+			bottom: -6px;
+			background: #fec600;
+			opacity: 0;
+			transition: 0.4s;
+		}
+		nav .mobile_price .mobile_drop .card button:hover::after{
+			opacity: 1;
+			width: 30%;
+		}
+	/*============== Nav Section End =================*/
+	/*============== Banner Section Start =================*/
+		.banner {
+			clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+		}
+		.banner .plugin .overlay {
+			padding-top: 150px;
+			padding-bottom: 93px;
+		}
+		.banner .plugin .overlay h3{
+			font-size: 26px;
+		}
+		.banner .plugin .overlay h1{
+			font-size: 46px;
+			margin-bottom: 20px;
+		}
+		.banner .plugin .overlay p {
+			margin: 0 auto !important;
+		}
+		.banner .plugin .overlay .item {
+			text-align: center;
+		}
+		.banner .plugin .overlay .buttons {
+			margin-top: 90px;
+		}
+		.banner .slick-arrow {
+			top: 63%;
+		}
+	/*============== Banner Section End =================*/
+	/*============== About Us Section Start =================*/
+	#about .center{
+		display: flex;
+		justify-content: center;
+	}
+	#about .item_img2 {
+		height: 259px;
+		width: 259px;
+		margin-bottom: 25px;
+	}
+	#about .item_img img {
+		height: 220px;
+		width: 220px;
+	}
+	#about .item_img .overlay {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%,-50%);
+	}
+	#about .item {
+		text-align: center;
+		width: auto;
+		padding: 30px 0px;
+		margin: 0 37px;
+		margin-bottom: 25px;
+	}
+	#about .item_img1 {
+		margin-top: 0px;
+	}
+	#about .item_img3 {
+		margin-top: 0px;
+	}
+	#about .item p{
+		width: auto;
+		text-align: center;
+		margin-left: 0%;
+	}
+	#about .item .shape{
+		display: none;
+	}
+	#about .item::after {
+		display: none;
+	}
+	/*============== About Us Section End =================*/
+	/*============== Portfolio Section Start =================*/
+	#portfolio {
+		clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+	}
+	#portfolio .main {
+		padding-bottom: 10px;
+	}
+	#portfolio .title {
+		padding-top: 50px;
+	}
+	#portfolio .item {
+		margin-bottom: 30px !important;
+	}
+	/*============== Portfolio Section End =================*/
+	/*============== Service Section Start =================*/
+	#service .title {
+		margin-top: 50px;
+	}
+	#service .line {
+		display: none;
+	}
+	#service .main .item {
+		flex-direction: column !important;
+		padding-top: 0px;
+	}
+	#service .main .item .left {
+		width: auto;
+		justify-content: center !important;
+	}
+	#service .main .item .middle {
+		width: auto;
+		margin: 20px 0;
+	}
+	#service .main .item .right {
+		width: auto;
+		margin: 0 20px;
+	}
+	#service .main .item .right::after {
+		top: -6%;
+		left: 50% !important;
+		transform: translateX(-50%) rotate(-45deg);
+	}
+	#service .up_arrow {
+		top: -50px;
+	}
+	#service .bottom_arrow {
+		bottom: -50px;
+	}
+	#service .main .item .right .text {
+		padding: 27px 20px;
+		text-align: center;
+	}
+	/*============== Service Section End =================*/
+	/*============== Testimonial Section Start =================*/
+	#testimonial {
+		clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+	}
+	#testimonial .main .line {
+		display: none;
+	}
+	#testimonial .image_slider .slick-arrow {
+		top: 38%;
+		z-index: 99;
+	}
+	#testimonial .image_slider .left_arrow {
+		left: 2%;
+	}
+	#testimonial .image_slider .right_arrow {
+		left: 98%;
+	}
+	#testimonial .left .item {
+		transform: scale(1.2);
+	}
+	#testimonial .main2 {
+		margin-top: 20px;
+	}
+	#testimonial .main2 .shape {
+		display: none;
+	}
+	#testimonial .right .center {
+		padding: 20px 10px;
+		margin: 0 auto;
+		/* width: auto; */
+	}
+	#testimonial .overlay {
+		padding: 100px 0 100px 0;
+	}
+	/*============== Testimonial Section End =================*/
+	/*============== Pricing Section Start =================*/
+	#price .row .item .list {
+		background: #f1f1f1;
+		clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 100%);
+	}
+	#price .row .item {
+		margin-bottom: 30px !important;
+	}
+	#price .row .item h3 {
+		padding-bottom: 16px;
+	}
+	#price .row .item h1 {
+		padding: 20px 0 50px 0;
+	}
+	#price .row .item .border {
+		top: 50px;
+	}
+	#price .row .item .list ul {
+		padding: 50px 0 10px 0;
+	}
+	#price .row .item .list ul li {
+		line-height: 35px;
+	}
+	/*============== Pricing Section End =================*/
+	/*============== Counter Section Start =================*/
+	#count .overlay {
+		padding: 40px 0 20px 0;
+	}
+	#count .row {
+		margin-right: 0px;
+		margin-left: 0px;
+	}
+	#count .col {
+		min-width: auto;
+	}
+	#count .row .item {
+		margin-bottom: 20px;
+	}
+	#count .row .item span {
+		font-size: 20px;
+	}
+	#count .row .item h4 {
+		font-size: 18px;
+	}
+	/*============== Counter Section End =================*/
+	/*============== Team Section Start =================*/
+	#team {
+		margin-bottom: 50px;
+	}
+	#team .row .item .img {
+		clip-path: polygon(0% 0%, 100% 0, 100% 100%, 0% 100%);
+	}
+	#team .row .item {
+		margin-bottom: 20px !important;
+	}
+	#team .row .item:hover .text {
+		padding-bottom: 60px;
+	}
+	#team .row .item .text {
+		padding-bottom: 20px;
+	}
+	#team .row .item .img img {
+		width: auto;
+	}
+	#team .row .item .icon {
+		width: auto;
+	}
+	#team .row .item .icon i {
+		margin: 0 7px;
+	}
+	#team .row .item .icon i {
+		font-size: 14px;
+		height: 30px;
+		width: 30px;
+		line-height: 30px;
+	}
+	#team .col-md-3{
+		padding: 5px;
+	}
+	/*============== Team Section End =================*/
+	/*============== Brand Section Start =================*/
+	.brand .common {
+		margin: 20px 15px;
+	}
+	/*============== Brand Section End =================*/
+	/*============== Footer Section Start =================*/
+	.footer .address {
+		margin: 0px 0 30px 0;
+	}
+	.footer .address .item {
+		margin-bottom: 30px;
+	}
+	.footer .address .item p {
+		font-size: 12px;
+		width: auto;
+	}
+	.footer .address .item4 p {
+		font-size: 11px;
+	}
+	/*============== Footer Section End =================*/
+}
+@media (min-width:992px) and (max-width:1199px){
+/* =========== team ==========*/
+#team .row .item .main {
+	margin-top: -20px;
+}
+#team .row .item .text {
+	padding: 0px 0 20px 0;
+}
+#team .row .item:hover .text {
+	padding-bottom: 60px;
+}
+#team .row .item .img img {
+	width: auto;
+}
+/* =========== About Us =========== */
+#about .center{
+	display: flex;
+	justify-content: center;
+}
+#about .item_img2 {
+	height: 259px;
+	width: 259px;
+	margin-bottom: 30px;
+}
+#about .item_img img {
+	height: 220px;
+	width: 220px;
+}
+#about .item_img .overlay {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#about .item {
+	text-align: center;
+	width: auto;
+	padding: 30px 18px;
+	margin: 0 0px;
+	margin-bottom: 35px;
+}
+#about .item_img1 {
+	margin-top: 27px;
+	padding: 30px 18px;
+	margin-left: 15px;
+	margin-bottom: 35px;
+}
+#about .item_img3 {
+	margin-top: 27px;
+	margin-right: 15px;
+}
+#about .item p{
+	width: auto;
+	text-align: center;
+	margin-left: 0%;
+}
+#about .item .shape {
+	bottom: -23px;
+	left: 50%;
+	transform: rotate(45deg) translateX(-50%);
+}
+#about .item .shape3 {
+	bottom: 28%;
+	left: -12%;
+	transform: translateY(-50%);
+}
+#about .item .shape2 {
+	bottom: 28%;
+	left: 100%;
+	transform: translateY(-50%);
+}
+#about .item .shape4 {
+	top: 6px;
+}
+#about .item::after {
+	bottom: -47px;
+	left: 52%;
+	transform: translateX(-50%);
+}
+#about .item4::after {
+	top: -42px;
+}
+#about .item_img1::after {
+	top: 91px;
+	left: 112% !important;
+}
+#about .item_img3::after {
+	top: 91px;
+	left: -11% !important;
+}
+/* =========== Service =========== */
+#service .main .item .right .text {
+	padding: 27px 15px;
+}
+#service .main .item .right::after {
+	z-index: -1;
+}
+#service .main .item:nth-child(2n) .right::after {
+	left: 94%;
+}
+/* =========== Testimonial =========== */
+#testimonial .container {
+	margin-left: 80px;
+}
+#testimonial .main2 .shape {
+	left: -3%;
+	transform: rotateX(25deg) rotateY(77deg) skew(-48deg) translate(-50%,-50%);
+}
+/* =========== Brand =========== */
+.brand .common img {
+	margin: 0 auto;
+	transform: skewY(3deg);
+	height: 100%;
+	width: 100%;
+}
+/* =========== footer =========== */
+.footer .address .item4 p {
+	font-size: 15px;
+}
+}
